@@ -22,7 +22,7 @@ A responsive web application that displays famous artists' profiles in an Instag
 - Ion Icons
 
 ## Project Structure
-
+```
 project-root/
 ├── index.html          # Main HTML structure
 ├── index.css           # All styling rules
@@ -40,7 +40,7 @@ project-root/
 │   ├── comment.svg
 │   └── share.svg
 └── README.md           # This documentation file
-
+```
 ## Key Functionality
 
 ### JavaScript Features
