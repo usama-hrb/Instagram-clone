@@ -2,7 +2,7 @@
 
 A responsive web application that displays famous artists' profiles in an Instagram-like interface, featuring artwork posts, like functionality, and keyboard navigation.
 
-![Project Screenshot](./images/screenshot.png)
+![Project Screenshot](./images/Screenshot.png)
 
 ## Features
 
