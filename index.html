@@ -1,9 +1,81 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="holder">
+      <header>
+        <div class="header">
+          <img src="./images/logo.png" alt="logo" class="logo" />
+          <img
+            src="./images/user-avatar.png"
+            alt="profile"
+            class="userProfile"
+          />
+        </div>
+      </header>
+      <main>
+        <div class="userInfo">
+          <img
+            src="./images/avatar-vangogh.jpg"
+            alt="avatar-vangogh"
+            class="postProfile"
+          />
+          <div class="PostUserName">
+            <h2 class="userName">Vincent van Gogh</h2>
+            <p class="postCity">Zudert, Netherlands</p>
+          </div>
+        </div>
+        <div class="postImg">
+          <img
+            src="./images/post-vangogh.jpg"
+            alt="post-vangogh"
+            class="postVangogh"
+          />
+        </div>
+        <div class="reactIcons">
+            <label>
+                <input type="checkbox" class="likeToggle">
+                <img src="./images/like.svg" alt="like" class="likeIcon">
+            </label>
+            <label>
+                <input type="checkbox">
+                <img src="./images/comment.svg" alt="comment" class="commentIcon icon">
+            </label>
+            <label>
+                <input type="checkbox">
+                <img src="./images/share.svg" alt="share" class="shereIcon icon">
+            </label>
+        </div>
+        <div class="likesDiv">
+          <div class="likes">12</div>
+          <p class="likesWord">likes</p>
+        </div>
+        <div class="commentDiv">
+          <p class="name">gus1819</p>
+          <p class="comment">i'm feelin a bit stressed tbh</p>
+        </div>
+      </main>
+      <!-- <footer></footer> -->
+      <script src="./index.js"></script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </div>
+  </body>
 </html>
