@@ -14,8 +14,8 @@ body {
 
 
 .holder {
-    width: 375px;
-    height: 625px;
+    width: 475px;
+    height: 825px;
     display: flex;
     flex-direction: column;
     border: 4px solid black;
@@ -26,8 +26,8 @@ body {
 .header {
     border-radius: 20px 20px 0 0 ;
     display: flex;
-    width: 375px;
-    height: 67px;
+    width: 475px;
+    height: 87px;
     justify-content: space-between;
     background-color: #FFFFFF;
     align-items: center;
@@ -37,14 +37,14 @@ body {
 .logo {
     height: auto;
     width: 127px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .userProfile {
-    width: 34px;
+    width: 44px;
     height: auto;
     border-radius: 50%;
-    margin-right: 16px;
+    margin-right: 24px;
     transition: transform 1.1s ease;
 }
 
@@ -57,32 +57,32 @@ main {
     display: flex;
     flex-direction: column;
     border-radius: 0px 0 20px 20px;
-    height: 625px;
+    height: 825px;
 }
 
 .userInfo {
     display: flex;
-    gap: 7px;
+    gap: 14px;
     align-items: center;
-    margin: 10px;
+    margin: 14px;
 }
 
 .postProfile {
-    width: 34px;
-    height: 34px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
 }
 
 .userName{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .postCity {
-    font-size: .8em;
+    font-size: 1em;
 }
 
 .postVangogh {
-    width: 375px;
+    width: 475px;
     height: auto;
 }
 
@@ -94,17 +94,6 @@ main {
     align-items: center;
 }
 
-.likesNumbersIcon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.likesNumbersIcon p {
-    font-size: larger;
-    font-weight: 500;
-}
 
 label {
     margin: 0;
@@ -150,8 +139,12 @@ label:has(input:checked) .likeIcon {
 
 .likes, .name, .likesWord {
     font-weight: 700;
+    font-size: 1.2em;
 }
 
+.comment {
+    font-size: 1.2em;
+}
 
 .commentDiv {
     display: flex;
