@@ -24,22 +24,22 @@ A responsive web application that displays famous artists' profiles in an Instag
 ## Project Structure
 
 project-root/
-├── index.html - Main HTML structure
-├── index.css - All styling rules
-├── index.js - JavaScript functionality
-├── images/ - Folder for all project images
-│ ├── logo.png
-│ ├── user-avatar.png
-│ ├── avatar-vangogh.jpg
-│ ├── post-vangogh.jpg
-│ ├── avatar-courbet.jpg
-│ ├── post-courbet.jpg
-│ ├── avatar-ducreux.jpg
-│ ├── post-ducreux.jpg
-│ ├── like.svg
-│ ├── comment.svg
-│ └── share.svg
-└── README.md - This documentation file
+├── index.html          # Main HTML structure
+├── index.css           # All styling rules
+├── index.js            # JavaScript functionality
+├── images/             # Folder containing all project images
+│   ├── logo.png
+│   ├── user-avatar.png
+│   ├── avatar-vangogh.jpg
+│   ├── post-vangogh.jpg
+│   ├── avatar-courbet.jpg
+│   ├── post-courbet.jpg
+│   ├── avatar-ducreux.jpg
+│   ├── post-ducreux.jpg
+│   ├── like.svg
+│   ├── comment.svg
+│   └── share.svg
+└── README.md           # This documentation file
 
 ## Key Functionality
 
