@@ -40,15 +40,21 @@ body {
     margin-left: 20px;
 }
 
-.userProfile {
+.crop {
     width: 44px;
-    height: auto;
+    height: 44px;
+    overflow: hidden;
     border-radius: 50%;
     margin-right: 24px;
     transition: transform 1.1s ease;
 }
 
-.userProfile:hover {
+.userProfile {
+    height: auto;
+    width: 100%;
+}
+
+.crop:hover {
     transform: scale(1.1);
 }
 
